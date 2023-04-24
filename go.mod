@@ -92,22 +92,22 @@ require (
 	github.com/prometheus/prometheus v1.8.2-0.20211011171444-354d8d2ecfac
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/russellhaering/goxmldsig v1.2.0
-	github.com/stretchr/testify v1.8.1
+	github.com/stretchr/testify v1.8.2
 	github.com/teris-io/shortid v0.0.0-20171029131806-771a37caa5cf
 	github.com/ua-parser/uap-go v0.0.0-20211112212520-00c877edfe0f
 	github.com/uber/jaeger-client-go v2.29.1+incompatible
 	github.com/urfave/cli/v2 v2.3.0
 	github.com/vectordotdev/go-datemath v0.1.1-0.20220323213446-f3954d0b18ae
-	github.com/weaveworks/common v0.0.0-20210913144402-035033b78a78 // indirect
+	github.com/weaveworks/common v0.0.0-20210913144402-035033b78a78
 	github.com/xorcare/pointer v1.1.0
 	github.com/yalue/merged_fs v1.2.2
 	github.com/yudai/gojsondiff v1.0.0
 	go.opentelemetry.io/collector v0.31.0
 	go.opentelemetry.io/collector/model v0.31.0
-	go.opentelemetry.io/otel v1.11.2
+	go.opentelemetry.io/otel v1.14.0
 	go.opentelemetry.io/otel/exporters/jaeger v1.0.0
 	go.opentelemetry.io/otel/sdk v1.11.2
-	go.opentelemetry.io/otel/trace v1.11.2
+	go.opentelemetry.io/otel/trace v1.14.0
 	golang.org/x/crypto v0.4.0
 	golang.org/x/exp v0.0.0-20221211140036-ad323defaf05
 	golang.org/x/net v0.4.0
@@ -126,7 +126,7 @@ require (
 	gopkg.in/square/go-jose.v2 v2.5.1
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1
-	xorm.io/builder v0.3.6
+	xorm.io/builder v0.3.6 // indirect
 	xorm.io/core v0.7.3
 	xorm.io/xorm v0.8.2
 )
@@ -264,7 +264,7 @@ require (
 	github.com/urfave/cli v1.22.9
 	go.etcd.io/etcd/api/v3 v3.5.4
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.37.0
-	go.opentelemetry.io/contrib/propagators/jaeger v1.6.0
+	go.opentelemetry.io/contrib/propagators/jaeger v1.15.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.11.2
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.11.2
 	gocloud.dev v0.25.0
